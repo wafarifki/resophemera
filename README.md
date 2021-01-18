@@ -1,7 +1,7 @@
 # resophemera
 Resophemera - Temukan website dan tool yang membantu kamu menjadi developer dan designer yang lebih baik dengan resophemera. Cukup klik tombol dibawah dan jelajahi resourcesnya!
 
-Haiii saya baru saja menantang diri saya untuk meng-implementasikan desain dari mas <a href="https://www.facebook.com/syaaauqi" target="_blank">Syauqi Zaidan Khairan Khalaf</a>
+Haiii saya baru saja menantang diri saya untuk meng-implementasikan desain dari abang <a href="https://www.facebook.com/syaaauqi" target="_blank">Syauqi Zaidan Khairan Khalaf</a>
  atau yang biasa kita kenal bang uqi :D Mohon maaf sekiranya ada salah kata / ada kode kode yang masih berantakan, saya harap maklumnya :D
  
 # ScreenShoot Desktop Version
