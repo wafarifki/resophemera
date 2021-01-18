@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap');
+body {
+    background: #ffd605;
+    margin: 0;
+    padding: 30px;
+}
+
+* {
+    outline: none !important;
+}
+
+
+/*Animasi*/
+
+.animates {
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+
+/*Animasi*/
+
+#loader {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+}
+
+#seluruhnyasiapgrak {
+    display: none;
+}
+
+.base {
+    background: #f9f9f9;
+    color: #404040;
+    padding: 0px 30px 30px 30px;
+}
+
+.logooo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 35% !important;
+}
+
+.navbar {
+    padding: 0 !important;
+    padding-top: 20px !important;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    color: #202020 !important;
+}
+
+.tombolkontak {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    color: #f9f9f9 !important;
+    background: #ffd605;
+    padding: 10px 30px 10px 30px !important;
+    border-radius: 10px;
+    border: 2px solid #f9f9f9;
+}
+
+.tombolkontak:hover {
+    text-decoration: none;
+    color: #ffd605 !important;
+    background: #f9f9f9;
+    border: 2px solid #ffd605;
+}
+
+.header {
+    background: #ffd605;
+    color: #202020;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #f9f9f9;
+}
+
+.header p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    color: #f9f9f9;
+}
+
+.header img {
+    width: 80%;
+}
+
+.headerleft {
+    padding: 100px 10px 20px 70px;
+}
+
+.tombolmulai {
+    border: 2px solid #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #ffd605;
+    background: #f9f9f9;
+    padding: 10px 60px 10px 60px;
+    border-radius: 10px;
+    border: 2px solid #ffd605;
+}
+
+.tombolmulai:hover {
+    text-decoration: none;
+    color: #f9f9f9;
+    background: #ffd605;
+    border: 2px solid #f9f9f9;
+}
+
+.tomboltutorial {
+    margin-left: 10px;
+    border: 2px solid #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #f9f9f9;
+    background: #ffd605;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+}
+
+.tomboltutorial:hover {
+    text-decoration: none;
+    color: #ffd605;
+    background: #f9f9f9;
+    border: 2px solid #f9f9f9;
+}
+
+.bodycenter {
+    background: #f9f9f9;
+    margin-top: 13px;
+}
+
+.leftsection {
+    background: #ffd605;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    height: auto;
+}
+
+.leftsection h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #202020;
+}
+
+.leftsection img {
+    width: 80%;
+}
+
+.baseleftsection {
+    padding-left: 0 !important;
+}
+
+.centersection {
+    background: #ffd605;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    height: auto;
+}
+
+.centersection h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #202020;
+}
+
+.centersection img {
+    margin-top: 12px;
+    width: 80%;
+}
+
+.basecentersection {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.rightsection {
+    background: #ffd605;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    height: auto;
+}
+
+.rightsection h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #202020;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.baserightsection {
+    padding-right: 0 !important;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    body {
+        background: #ffd605;
+        margin: 0;
+        padding: 15px;
+    }
+    .base {
+        border-radius: 20px;
+        background: #f9f9f9;
+        color: #404040;
+        padding: 0px 20px 20px 20px;
+    }
+    .header {
+        background: #ffd605;
+        color: #202020;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .header h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #f9f9f9;
+        font-size: 20px;
+    }
+    .header p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 11px;
+        color: #f9f9f9;
+    }
+    .header img {
+        width: 100%;
+    }
+    .headerleft {
+        padding: 40px 10px 10px 10px;
+    }
+    .tombolmulai {
+        border: 2px solid #f9f9f9;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #ffd605;
+        background: #f9f9f9;
+        padding: 6px 20px 6px 20px;
+        border-radius: 10px;
+    }
+    .tomboltutorial {
+        margin-left: 10px;
+        border: 2px solid #f9f9f9;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #f9f9f9;
+        background: #ffd605;
+        padding: 6px 10px 6px 10px;
+        border-radius: 10px;
+    }
+    .ml-auto,
+    .mx-auto {
+        margin-left: 0 !important;
+    }
+    .tombolkontak {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500 !important;
+        color: #f9f9f9 !important;
+        background: #ffd605;
+        padding: 10px 30px 10px 40px !important;
+        border-radius: 10px;
+    }
+    .nav-link {
+        padding-left: 20px !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500 !important;
+    }
+    .baseleftsection {
+        margin-top: 20px;
+        padding-right: 0 !important;
+    }
+    .basecentersection {
+        margin-top: 20px;
+        padding-right: 0 !important;
+    }
+    .baserightsection {
+        margin-top: 20px;
+        padding-left: 0 !important;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #ffd605 !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('../image/menu.svg') !important;
+    }
+    #loader {
+        position: absolute;
+        left: 33%;
+        top: 50%;
+        z-index: 1;
+        width: 120px;
+        height: 120px;
+        margin: -76px 0 0 -76px;
+    }
+}
